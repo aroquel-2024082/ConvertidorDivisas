@@ -1,0 +1,23 @@
+.footer {
+    background-color: rgb(13, 13, 54);
+    color: aliceblue;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+}
+
+.footer-content p {
+    margin: 0;
+}
